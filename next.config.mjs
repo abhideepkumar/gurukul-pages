@@ -1,14 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export", 
-  images: {
-    unoptimized: true,
-  },
-  experimental: {
-    serverActions: {
-      defaultRuntime: "edge",
-    },
-  },
-};
+import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
 
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+ if (process.env.NODE_ENV === 'development') {
+   await setupDevPlatform();
+ }
+w
 export default nextConfig;

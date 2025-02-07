@@ -1,3 +1,4 @@
+export const runtime = "edge";
 import PaymentsHistory from "@/components/payments";
 import Link from "next/link";
 

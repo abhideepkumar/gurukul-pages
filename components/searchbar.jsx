@@ -1,3 +1,4 @@
+export const runtime = "edge";
 "use client";
 import React, { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
