@@ -1,5 +1,5 @@
-export const runtime = "edge";
 "use client";
+export const runtime = "edge";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";

@@ -1,5 +1,5 @@
-export const runtime = "edge";
 "use client";
+export const runtime = "edge";
 import React from "react";
 import useSWR, { mutate } from "swr";
 import { Plus, RefreshCw } from "lucide-react";
