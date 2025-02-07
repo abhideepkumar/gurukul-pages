@@ -71,8 +71,8 @@ This School Fee Management System is designed to streamline the process of manag
 3. Set up environment variables:
    Create a `.env.local` file in the root directory and add your Supabase credentials:
    ```
-   SUPABASE_URL=your_supabase_project_url
-   SUPABASE_KEY=your_supabase_anon_key
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   NEXT_PUBLIC_SUPABASE_KEY=your_supabase_anon_key
    ```
 
 4. Run the development server:
